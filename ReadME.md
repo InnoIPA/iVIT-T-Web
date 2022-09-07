@@ -3,7 +3,6 @@
 A user interfaces to the training model. This UI is easy to operate for train model and evaluates the trained model and convert to edge platform. 
 * [See What's New](#see-whats-new)
 * [Pre-requirements](#pre-requirements)
-* [Build docker images](#build-docker-images)
 * [Run container](#run-container)
 * [Open web UI](#open-web-ui)
 
@@ -19,12 +18,6 @@ A user interfaces to the training model. This UI is easy to operate for train mo
 ### Pre-requirements
 - Running ```iVIT-T Web API```
 - [Tutorial](https://github.com/Innodisk-Will/iVIT-T.git)
-
-### Build docker images
-```shell
-sudo chmod 777 ./docker
-sudo ./docker/build.sh
-```
 
 ### Run container
 ```shell
