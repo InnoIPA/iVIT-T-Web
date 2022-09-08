@@ -25,7 +25,7 @@ A user interfaces to the training model. This UI is easy to operate for train mo
 
 ### Run container
 ```shell
-sudo ./docker/run_client.sh -p 6530
+sudo ./docker/run.sh -p 6530
 ```
 
 This "-p" is the port number that relative port of web API.
