@@ -21,7 +21,7 @@ A user interfaces to the training model. This UI is easy to operate for train mo
 
 ### Pre-requirements
 - Running ```iVIT-T Web API```
-- [Tutorial](https://github.com/InnoIPA/iVIT-T)
+- [Tutorial](https://github.com/InnoIPA/ivit-t)
 
 ### Run container
 ```shell
