@@ -18,8 +18,10 @@ function close_upload_mkpopup(){
     $("#cls_name").val("");
     // Clean option
     $("#classes_list_main").html("");
-    // Preset panel->file
-    switch_folder_file(null);
+    // // Preset panel->file
+    // switch_folder_file(null);
+    // Refresh panel
+    setTimeout('myrefresh()',50);
 };
 
 ///////////////////////////////// CHANGE FOLDER OR FILE ACTION /////////////////////////////////////
