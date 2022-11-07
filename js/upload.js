@@ -188,6 +188,7 @@ function get_entry_directory_files(entry) {
                         resolve(file);
                     }
                     else{
+                        alert(`This file can't upload-Filename:[${file.name}], Type:[${file.type}]`);
                         resolve(null);
                     }
                     })));
@@ -354,6 +355,7 @@ function drop_file_upload(files, i, TOTAL_UPLOAD){
         else{
             // Exclude
             TOTAL_UPLOAD -= 1
+            alert(`This file can't upload-Filename:[${file.name}], Type:[${file.type}]`);
         };
     };
     return TOTAL_UPLOAD
