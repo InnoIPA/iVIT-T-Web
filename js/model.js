@@ -572,6 +572,7 @@ function start_export(){
                             <div style="margin-top: 10px;">
                                 Loading...
                             </div>
+                            <div id="export_progress" class="export_progress">0%</div>
                         </div>`
 
     $("#export_containter").append(loading_html);
@@ -591,6 +592,10 @@ function socket_export(){
         }
         else if (msg.includes('Failure')){
             alert(msg);
+        }
+        else if (msg.includes("%")){
+            msg = msg.replace(/\"/g,'')
+            $("#export_progress").text(msg);
         };
     });
 };
