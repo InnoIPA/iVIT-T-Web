@@ -1,15 +1,22 @@
 # Release Notes
 
+---
+## Release 1.1
+### New Features/Highlights
+- Added new platform - Hailo
+- Support convert to Hailo model
+### Release Notes
+- Added new platform - Hailo
+- Support convert to Hailo model
+
+---
 ## Release 1.0.1
 ### New Features/Highlights
-- added code for web API that has a database
+- Added code for web API that has a database
+### Release Notes
+- Added code for web API that has a database
 
-## Release 1.0
-### New Features/Highlights
-- Projects: Create, Control 
-- Dataset: Upload, Labeling, Control iteration 
-- Model: Training, Evaluate, Convert, Control iteration
-
+---
 ### Release Notes
 ### Projects
 - Create, Control 
