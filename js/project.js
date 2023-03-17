@@ -169,9 +169,17 @@ function create_project(){
         alert("The form is not complete.");
     }
     else{
-        create_project_api(front_param);
+        data = create_project_api(front_param);
+        if (data["status"] == 200){
+            setTimeout('myrefresh()',500);
+        }
+        else{
+            close_create_mkpopup();
+            alert(data["message"]);
+        };
     }
 };
+
 
 ///////////////////////////////// MORE BUTTON ON CARD /////////////////////////////////////
 ///////////////////////////////// MORE BUTTON ON CARD /////////////////////////////////////
